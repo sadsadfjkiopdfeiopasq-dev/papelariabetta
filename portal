@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Betta Variedades & Papelaria | Guarulhos - SP</title>
+    <meta name="description" content="Betta Variedades e Papelaria em Guarulhos-SP. Papelaria completa, material de escritório, artigos escolares e variedades. Ligue ou visite nossa loja.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #ffffff;
+            color: #1a1a1a;
+        }
+        header {
+            background: #1d3557;
+            color: #fff;
+            padding: 30px 8%;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        header p {
+            margin-top: 8px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .services-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        .service-box {
+            background: #457b9d;
+            padding: 12px 18px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .cta-btn {
+            display: inline-block;
+            margin-top: 25px;
+            background: #e63946;
+            color: #fff;
+            padding: 14px 28px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        section {
+            padding: 55px 8%;
+        }
+        .section-title {
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background: #f8f9fa;
+            padding: 22px;
+            border-radius: 6px;
+        }
+        .contact {
+            background: #f1f1f1;
+        }
+        footer {
+            background: #1d3557;
+            color: #fff;
+            padding: 25px 8%;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Betta Variedades & Papelaria</h1>
+    <p>Material de escritório, artigos escolares e variedades em Guarulhos – SP</p>
+
+    <div class="services-top">
+        <div class="service-box">Papelaria Completa</div>
+        <div class="service-box">Material de Escritório</div>
+        <div class="service-box">Artigos Escolares</div>
+        <div class="service-box">Variedades e Presentes</div>
+    </div>
+
+    <a href="#contato" class="cta-btn">Ligar ou Visitar Agora</a>
+</header>
+
+<section>
+    <h2 class="section-title">Tudo o que você precisa em papelaria e variedades</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Papelaria</h3>
+            <p>Cadernos, canetas, papéis, mochilas e materiais escolares completos.</p>
+        </div>
+        <div class="card">
+            <h3>Material de Escritório</h3>
+            <p>Suprimentos para escritório, pastas, blocos, impressoras e acessórios.</p>
+        </div>
+        <div class="card">
+            <h3>Variedades</h3>
+            <p>Produtos para casa, presentes, artigos de utilidade e novidades do dia.</p>
+        </div>
+        <div class="card">
+            <h3>Atendimento Local</h3>
+            <p>Loja física em Guarulhos com atendimento rápido e entrega imediata.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contato">
+    <h2 class="section-title">Contato e Localização</h2>
+
+    <p><strong>Endereço:</strong> Rua Maria Antonieta de Campos Arruda, 204 – Lote 22A – Jardim Angelica – Guarulhos/SP</p>
+    <p><strong>Telefone:</strong> (11) 4886-2471</p>
+    <p><strong>E-mail:</strong> bettavariedades@gmail.com</p>
+
+    <a href="tel:1148862471" class="cta-btn">Ligar Agora</a>
+</section>
+
+<footer>
+    <p>
+        © Betta Variedades e Papelaria LTDA<br>
+        CNPJ: 60.849.543/0001-00
+    </p>
+</footer>
+
+</body>
+</html>
